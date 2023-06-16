@@ -1,0 +1,22 @@
+{
+  "name": "inventory-management",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "cd server && npm install  && cd ../client && npm install && npm run build",
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gahmee/Inventory-Management.git"
+  },
+  "author": "Gamaliel Aguirre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gahmee/Inventory-Management/issues"
+  },
+  "homepage": "https://github.com/gahmee/Inventory-Management#readme"
+}
